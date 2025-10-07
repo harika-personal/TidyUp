@@ -60,7 +60,7 @@ _(See `prisma/schema.prisma` for full definitions.)_
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/TidyUp.git
+git clone https://github.com/harika-personal/TidyUp.git
 cd TidyUp
 ```
 

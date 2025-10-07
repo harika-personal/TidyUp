@@ -1,0 +1,45 @@
+# ========================
+# Global Git Ignore for TidyUp Project
+# ========================
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# --- Environment Files ---
+.env
+.env.local
+.env.development
+.env.production
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Config ---
+.vscode/
+.idea/
+
+# --- Frontend ---
+tidyup-frontend/node_modules/
+tidyup-frontend/dist/
+tidyup-frontend/build/
+
+# --- Backend ---
+tidyup-backend/node_modules/
+tidyup-backend/dist/
+tidyup-backend/build/
+tidyup-backend/generated/
+tidyup-backend/prisma/dev.db
+tidyup-backend/prisma/*.db-journal
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
